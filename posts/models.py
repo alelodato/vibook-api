@@ -8,18 +8,18 @@ class Post(models.Model):
     Default image set so that we can always reference image.url.
     """
     image_filter_choices = [
-        ('_1977', '1977'),
-        ('brannan', 'Brannan'),
+        ('amaro', 'Amaro'),
+        ('apollo', 'Apollo'),
         ('earlybird', 'Earlybird'),
+        ('gotham', 'Gotham'),
+        ('hefe', 'Hefe'),
         ('hudson', 'Hudson'),
-        ('inkwell', 'Inkwell'),
+        ('lily', 'Lily'),
         ('lofi', 'Lo-Fi'),
-        ('kelvin', 'Kelvin'),
         ('normal', 'Normal'),
-        ('nashville', 'Nashville'),
+        ('poprocket', 'Poprocket'),
         ('rise', 'Rise'),
-        ('toaster', 'Toaster'),
-        ('valencia', 'Valencia'),
+        ('sutro', 'Sutro'),
         ('walden', 'Walden'),
         ('xpro2', 'X-pro II')
     ]
