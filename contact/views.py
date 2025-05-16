@@ -1,5 +1,5 @@
 from rest_framework import generics, permissions
-from events_api.permissions import IsOwnerOrReadOnly
+from vibook_api.permissions import IsOwnerOrReadOnly
 from .models import Contact
 from .serializers import ContactSerializer, ContactDetailSerializer
 from django_filters.rest_framework import DjangoFilterBackend
